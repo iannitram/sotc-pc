@@ -38,3 +38,28 @@ savedata*/
 /showcase_raw/
 dist/launch.ini
 dist/desktop.ini
+
+# --- Standard setup: build artifacts
+build/
+out/
+cmake-build-*/
+target/
+*.o
+*.obj
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# --- Standard setup: game-file guard (game files must never be added by accident)
+assets/
+dao-assets/
+*.rar
+*.erf
+*.rim
+*.pak
+*.pkg
+*.self
+*.elf
+*.sprx
